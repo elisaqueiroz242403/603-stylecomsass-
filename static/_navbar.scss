@@ -1,0 +1,17 @@
+nav{
+    grid-area: nav;
+    background-color: rgb(21, 21, 70);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        background-color: aliceblue;
+        font-size: 20pt;
+        text-decoration: none;
+        font-weight: 800;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    
+}
